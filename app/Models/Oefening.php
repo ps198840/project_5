@@ -26,4 +26,8 @@ class Oefening extends Model
     /**
      * The roles that belong to the album.
      */
+
+    public function prestatie() {
+        return $this->hasMany(Prestatie::Class);
+    }
 }
