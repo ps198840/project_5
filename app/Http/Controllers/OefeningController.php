@@ -29,6 +29,7 @@ class OefeningController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
+
     {
         $validator = Validator::make($request->all(), [
             'naam' => 'required',
