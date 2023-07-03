@@ -53,9 +53,5 @@ class OefeningenSeeder extends Seeder
             'naam' => 'Crunch',
             'beschrijving' => 'Ga op je rug liggen en houd je handen op je borst. Plaats je voeten op de grond voor je met je knieën op 90 graden. Til de schouders van de grond en rol rustig omhoog, waarbij je de onderrug op de grond houdt. Laat je hoofd rustig weer terugzakken en adem uit. '
         ]);
-        DB::table('oefeningen')->insert([
-            'naam' => 'Cronch',
-            'beschrijving' => 'Ga op je rug liggen en houd je handen op je borst. Plaats je voeten op de grond voor je met je knieën op 90 graden. Til de schouders van de grond en rol rustig omhoog, waarbij je de onderrug op de grond houdt. Laat je hoofd rustig weer terugzakken en adem uit. '
-        ]);
     }
 }
